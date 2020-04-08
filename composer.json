@@ -1,0 +1,22 @@
+{
+  "name": "fatkulnurk/cryptx",
+  "description": "PHP ENCRYPT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Fatkul Nur Koirudin",
+      "email": "fatkulnur@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Fatkulnurk\\Cryptx\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "mmeyer2k/dcrypt": "^13.0"
+  }
+}

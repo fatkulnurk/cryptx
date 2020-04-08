@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d59eaef4f408482f1c238790c442b921",
+    "packages": [
+        {
+            "name": "mmeyer2k/dcrypt",
+            "version": "13.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mmeyer2k/dcrypt.git",
+                "reference": "ee53497692f4ebedb1c3a90e9e253ce72631c005"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mmeyer2k/dcrypt/zipball/ee53497692f4ebedb1c3a90e9e253ce72631c005",
+                "reference": "ee53497692f4ebedb1c3a90e9e253ce72631c005",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dcrypt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Meyer",
+                    "email": "m.meyer2k@gmail.com"
+                }
+            ],
+            "description": "A petite library of encryption functionality for PHP",
+            "keywords": [
+                "aes",
+                "encryption",
+                "hashing",
+                "openssl",
+                "pbkdf"
+            ],
+            "time": "2020-03-05T22:51:01+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.2",
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}
